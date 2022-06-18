@@ -59,7 +59,7 @@
 		0C03A701285D639800D029F9 /* SwiftUIPlayGround */ = {
 			isa = PBXGroup;
 			children = (
-				0C03A71A285DF66700D029F9 /* CustomGroup */,
+				0C03A71A285DF66700D029F9 /* CustomShape */,
 				0C03A702285D639800D029F9 /* SwiftUIPlayGroundApp.swift */,
 				0C03A704285D639800D029F9 /* ContentView.swift */,
 				0C03A710285D70E900D029F9 /* Layout.swift */,
@@ -77,14 +77,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0C03A71A285DF66700D029F9 /* CustomGroup */ = {
+		0C03A71A285DF66700D029F9 /* CustomShape */ = {
 			isa = PBXGroup;
 			children = (
 				0C03A712285DE4ED00D029F9 /* CustumShapeLine.swift */,
 				0C03A714285DEB6500D029F9 /* CustomShapeRect.swift */,
 				0C03A718285DEE5C00D029F9 /* CustomShapeOther.swift */,
 			);
-			path = CustomGroup;
+			path = CustomShape;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
