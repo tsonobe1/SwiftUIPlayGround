@@ -15,6 +15,8 @@
 		0C03A713285DE4ED00D029F9 /* CustumShapeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03A712285DE4ED00D029F9 /* CustumShapeLine.swift */; };
 		0C03A715285DEB6500D029F9 /* CustomShapeRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03A714285DEB6500D029F9 /* CustomShapeRect.swift */; };
 		0C03A719285DEE5C00D029F9 /* CustomShapeOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03A718285DEE5C00D029F9 /* CustomShapeOther.swift */; };
+		0C03A71F285F5B8E00D029F9 /* CustomTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03A71E285F5B8E00D029F9 /* CustomTap.swift */; };
+		0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03A720285F5F6A00D029F9 /* CustomDrag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		0C03A712285DE4ED00D029F9 /* CustumShapeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustumShapeLine.swift; sourceTree = "<group>"; };
 		0C03A714285DEB6500D029F9 /* CustomShapeRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeRect.swift; sourceTree = "<group>"; };
 		0C03A718285DEE5C00D029F9 /* CustomShapeOther.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeOther.swift; sourceTree = "<group>"; };
+		0C03A71E285F5B8E00D029F9 /* CustomTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTap.swift; sourceTree = "<group>"; };
+		0C03A720285F5F6A00D029F9 /* CustomDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDrag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		0C03A701285D639800D029F9 /* SwiftUIPlayGround */ = {
 			isa = PBXGroup;
 			children = (
+				0C03A71D285F5B0B00D029F9 /* CustomGesture */,
 				0C03A71A285DF66700D029F9 /* CustomShape */,
 				0C03A702285D639800D029F9 /* SwiftUIPlayGroundApp.swift */,
 				0C03A704285D639800D029F9 /* ContentView.swift */,
@@ -85,6 +90,15 @@
 				0C03A718285DEE5C00D029F9 /* CustomShapeOther.swift */,
 			);
 			path = CustomShape;
+			sourceTree = "<group>";
+		};
+		0C03A71D285F5B0B00D029F9 /* CustomGesture */ = {
+			isa = PBXGroup;
+			children = (
+				0C03A71E285F5B8E00D029F9 /* CustomTap.swift */,
+				0C03A720285F5F6A00D029F9 /* CustomDrag.swift */,
+			);
+			path = CustomGesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,8 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C03A705285D639800D029F9 /* ContentView.swift in Sources */,
+				0C03A71F285F5B8E00D029F9 /* CustomTap.swift in Sources */,
 				0C03A719285DEE5C00D029F9 /* CustomShapeOther.swift in Sources */,
 				0C03A703285D639800D029F9 /* SwiftUIPlayGroundApp.swift in Sources */,
+				0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */,
 				0C03A713285DE4ED00D029F9 /* CustumShapeLine.swift in Sources */,
 				0C03A715285DEB6500D029F9 /* CustomShapeRect.swift in Sources */,
 				0C03A711285D70E900D029F9 /* Layout.swift in Sources */,
