@@ -18,6 +18,7 @@
 		0C03A71F285F5B8E00D029F9 /* CustomTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03A71E285F5B8E00D029F9 /* CustomTap.swift */; };
 		0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03A720285F5F6A00D029F9 /* CustomDrag.swift */; };
 		0C03A723285F641900D029F9 /* CustomMagnification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03A722285F641900D029F9 /* CustomMagnification.swift */; };
+		0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0C03A71E285F5B8E00D029F9 /* CustomTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTap.swift; sourceTree = "<group>"; };
 		0C03A720285F5F6A00D029F9 /* CustomDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDrag.swift; sourceTree = "<group>"; };
 		0C03A722285F641900D029F9 /* CustomMagnification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMagnification.swift; sourceTree = "<group>"; };
+		0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapMultiple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				0C03A71E285F5B8E00D029F9 /* CustomTap.swift */,
+				0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */,
 				0C03A720285F5F6A00D029F9 /* CustomDrag.swift */,
 				0C03A722285F641900D029F9 /* CustomMagnification.swift */,
 			);
@@ -176,6 +179,7 @@
 			files = (
 				0C03A705285D639800D029F9 /* ContentView.swift in Sources */,
 				0C03A71F285F5B8E00D029F9 /* CustomTap.swift in Sources */,
+				0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */,
 				0C03A719285DEE5C00D029F9 /* CustomShapeOther.swift in Sources */,
 				0C03A703285D639800D029F9 /* SwiftUIPlayGroundApp.swift in Sources */,
 				0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */,
