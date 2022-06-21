@@ -24,6 +24,7 @@
 		0C8CBF61286167B6001A0042 /* CustomAnimationWithBindingPropertyWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF60286167B6001A0042 /* CustomAnimationWithBindingPropertyWithAnimation.swift */; };
 		0C8CBF6328616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF6228616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift */; };
 		0C8CBF6728616FFE001A0042 /* CustomAnimationVariation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF6628616FFE001A0042 /* CustomAnimationVariation.swift */; };
+		0C8CBF6A28627547001A0042 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF6928627547001A0042 /* CustomTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		0C8CBF60286167B6001A0042 /* CustomAnimationWithBindingPropertyWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationWithBindingPropertyWithAnimation.swift; sourceTree = "<group>"; };
 		0C8CBF6228616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationWithBindingPropertyWithModifire.swift; sourceTree = "<group>"; };
 		0C8CBF6628616FFE001A0042 /* CustomAnimationVariation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationVariation.swift; sourceTree = "<group>"; };
+		0C8CBF6928627547001A0042 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +63,6 @@
 		0C03A6F6285D639800D029F9 = {
 			isa = PBXGroup;
 			children = (
-				0C8CBF5E28616053001A0042 /* CustomAnimationWithViewObject.swift */,
-				0C8CBF60286167B6001A0042 /* CustomAnimationWithBindingPropertyWithAnimation.swift */,
-				0C8CBF6228616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift */,
-				0C8CBF6628616FFE001A0042 /* CustomAnimationVariation.swift */,
 				0C03A701285D639800D029F9 /* SwiftUIPlayGround */,
 				0C03A700285D639800D029F9 /* Products */,
 			);
@@ -81,6 +79,8 @@
 		0C03A701285D639800D029F9 /* SwiftUIPlayGround */ = {
 			isa = PBXGroup;
 			children = (
+				0C8CBF6928627547001A0042 /* CustomTransition.swift */,
+				0C8CBF682861A8D5001A0042 /* CustomAnimation */,
 				0C03A71D285F5B0B00D029F9 /* CustomGesture */,
 				0C03A71A285DF66700D029F9 /* CustomShape */,
 				0C03A702285D639800D029F9 /* SwiftUIPlayGroundApp.swift */,
@@ -120,6 +120,17 @@
 				0C03A722285F641900D029F9 /* CustomMagnification.swift */,
 			);
 			path = CustomGesture;
+			sourceTree = "<group>";
+		};
+		0C8CBF682861A8D5001A0042 /* CustomAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0C8CBF5E28616053001A0042 /* CustomAnimationWithViewObject.swift */,
+				0C8CBF60286167B6001A0042 /* CustomAnimationWithBindingPropertyWithAnimation.swift */,
+				0C8CBF6228616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift */,
+				0C8CBF6628616FFE001A0042 /* CustomAnimationVariation.swift */,
+			);
+			path = CustomAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 				0C03A703285D639800D029F9 /* SwiftUIPlayGroundApp.swift in Sources */,
 				0C8CBF5F28616053001A0042 /* CustomAnimationWithViewObject.swift in Sources */,
 				0C8CBF6728616FFE001A0042 /* CustomAnimationVariation.swift in Sources */,
+				0C8CBF6A28627547001A0042 /* CustomTransition.swift in Sources */,
 				0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */,
 				0C8CBF5B286155AC001A0042 /* CustomRotationAndMag.swift in Sources */,
 				0C03A713285DE4ED00D029F9 /* CustumShapeLine.swift in Sources */,
