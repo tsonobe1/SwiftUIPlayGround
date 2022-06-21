@@ -7,10 +7,11 @@
 
 import SwiftUI
 
+// Gesture型にある順序性・並列性・排他性を設定するモディファイアを利用してイベント受信規則を指定する
 struct CustomRotationAndMag: View {
     @State private var angle: Angle = .degrees(.zero)
     @State private var lastAngle: Angle = .degrees(.zero)
-
+    
     @State private var magnifyBy = 1.0
     @State private var lastMagnificationValue = 1.0
     
@@ -21,11 +22,11 @@ struct CustomRotationAndMag: View {
         RotationGesture()
             .onChanged{ angle in
                 self.angle = angle
-                 self.angle = angle + self.lastAngle
+                self.angle = angle + self.lastAngle
             }
-             .onEnded { angle in
-                 self.lastAngle = self.angle
-             }
+            .onEnded { angle in
+                self.lastAngle = self.angle
+            }
     }
     
     // MARK: magnification gesture
@@ -51,7 +52,7 @@ struct CustomRotationAndMag: View {
             }
         
     }
-
+    
     
     var body: some View {
         // MARK: Method1 - Combination of rotatoin and magnification
@@ -63,7 +64,7 @@ struct CustomRotationAndMag: View {
         let rotationAndMag3 = SequenceGesture(longTap, rotation)
         
         let rotationAndMag4 = rotation.sequenced(before: longTap)
-
+        
         
         Text("SimultaneousGesture")
             .font(.title)

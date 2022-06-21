@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// ビュー・モディファイアーによりジェスチャー・イベントの受け取り優先順位を指定する
 struct CustomTapMultiple: View {
     @State private var insideCount: Int = 0
     @State private var outsideCount: Int = 0
@@ -33,6 +34,7 @@ struct CustomTapMultiple: View {
             }
             
             // MARK: DEFAULT
+            // InsideとOutsideは重なっている。クリックすると優先度が高い（先に呼び出された）Gestureのみが反応する
             VStack(alignment: .leading, spacing: 20){
                 Text("Default").font(.body).bold()
                 Text("insideをタップしてもoutsideは反応しない").font(.body)
@@ -46,6 +48,7 @@ struct CustomTapMultiple: View {
             .gesture(tap2)
             
             // MARK: HIGH PRIORITY
+            // highPriorityGestureで呼び出したGesutreが優先される
             VStack{
                 VStack(alignment: .leading, spacing: 20){
                     Text("Default").font(.body).bold()
@@ -60,7 +63,8 @@ struct CustomTapMultiple: View {
                 .highPriorityGesture(tap2) // ←
             }
             
-            // MARK: simultaneously SIMULTANEOUSLY
+            // MARK: SIMULTANEOUSLY
+            // simultaneousGestureで呼び出すと、優先度の高いGesture(ここでいうinside)と同時に反応する
             VStack{
                 VStack(alignment: .leading, spacing: 20){
                     Text("Default").font(.body).bold()
