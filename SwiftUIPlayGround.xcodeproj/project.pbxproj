@@ -25,6 +25,7 @@
 		0C8CBF6328616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF6228616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift */; };
 		0C8CBF6728616FFE001A0042 /* CustomAnimationVariation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF6628616FFE001A0042 /* CustomAnimationVariation.swift */; };
 		0C8CBF6A28627547001A0042 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF6928627547001A0042 /* CustomTransition.swift */; };
+		0C91DA1328632F1E00631DF3 /* CustomTransitionOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA1228632F1E00631DF3 /* CustomTransitionOther.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		0C8CBF6228616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationWithBindingPropertyWithModifire.swift; sourceTree = "<group>"; };
 		0C8CBF6628616FFE001A0042 /* CustomAnimationVariation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationVariation.swift; sourceTree = "<group>"; };
 		0C8CBF6928627547001A0042 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
+		0C91DA1228632F1E00631DF3 /* CustomTransitionOther.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionOther.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				0C8CBF6928627547001A0042 /* CustomTransition.swift */,
+				0C91DA1228632F1E00631DF3 /* CustomTransitionOther.swift */,
 				0C8CBF682861A8D5001A0042 /* CustomAnimation */,
 				0C03A71D285F5B0B00D029F9 /* CustomGesture */,
 				0C03A71A285DF66700D029F9 /* CustomShape */,
@@ -219,6 +222,7 @@
 				0C03A723285F641900D029F9 /* CustomMagnification.swift in Sources */,
 				0C03A711285D70E900D029F9 /* Layout.swift in Sources */,
 				0C8CBF6328616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift in Sources */,
+				0C91DA1328632F1E00631DF3 /* CustomTransitionOther.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
