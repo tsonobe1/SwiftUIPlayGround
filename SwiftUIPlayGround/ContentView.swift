@@ -21,9 +21,6 @@ struct ContentView: View {
                     NavigationLink(destination: CustomShapeOther()){
                         Text("CustomShapeOther")
                     }
-                    NavigationLink(destination: CustomShapeRect()){
-                        Text("CustomShapeRect")
-                    }
                 }
                 
                 Section(header: Text("Custom Gesture")){
@@ -60,13 +57,15 @@ struct ContentView: View {
                 }
                 
                 Section(header: Text("Transition")){
-                    NavigationLink(destination:
-                                    TransitionSwitchView()){
+                    NavigationLink(destination: TransitionSwitchView()){
                         Text("CustomTransition")
+                    }
+                    NavigationLink(destination: CustomTransitionOther()){
+                        Text("CustomTransitionOther")
                     }
                 }
                 
-            }
+            }.navigationTitle("🍎Swift UI Playground")
         }
     }
 }
