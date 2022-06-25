@@ -44,6 +44,7 @@ struct GeometryReaderSizeSafeArea: View {
                 .background(.teal).opacity(0.4)
             }
         }
+
     }
 }
 

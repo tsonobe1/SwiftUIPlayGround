@@ -17,10 +17,14 @@ struct GeometryReaderFrame: View {
                         RoundedRectangle(cornerRadius: 20)
                             .fill(Color.pink)
                             .overlay(VStack(alignment: .leading) {
-                                Text("X: \(geometry.frame(in: .global).origin.x)")
-                                Text("Y: \(geometry.frame(in: .global).origin.y)")
-                                Text("width: \(geometry.frame(in: .global).width)")
-                                Text("height: \(geometry.frame(in: .global).height)")
+                                Text(".x: \(geometry.frame(in: .global).origin.x)")
+                                Text(".y: \(geometry.frame(in: .global).origin.y)")
+                                Text(".width: \(geometry.frame(in: .global).width)")
+                                Text(".size.width: \(geometry.frame(in: .global).size.width)")
+
+                                Text(".height: \(geometry.frame(in: .global).height)")
+                                Text(".size.height: \(geometry.frame(in: .global).size.height)")
+
                             }
                                 .foregroundColor(.white)
                                 .font(.body)

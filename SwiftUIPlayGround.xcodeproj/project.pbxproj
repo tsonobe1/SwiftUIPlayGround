@@ -28,6 +28,7 @@
 		0C91DA1328632F1E00631DF3 /* CustomTransitionOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA1228632F1E00631DF3 /* CustomTransitionOther.swift */; };
 		0C91DA182863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA172863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift */; };
 		0C91DA1A2863D2C700631DF3 /* GeometryReaderFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA192863D2C700631DF3 /* GeometryReaderFrame.swift */; };
+		0C91DA1D28651DE200631DF3 /* BackGroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA1C28651DE200631DF3 /* BackGroundAndOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		0C91DA1228632F1E00631DF3 /* CustomTransitionOther.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionOther.swift; sourceTree = "<group>"; };
 		0C91DA172863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderSizeSafeArea.swift; sourceTree = "<group>"; };
 		0C91DA192863D2C700631DF3 /* GeometryReaderFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderFrame.swift; sourceTree = "<group>"; };
+		0C91DA1C28651DE200631DF3 /* BackGroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundAndOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +71,6 @@
 		0C03A6F6285D639800D029F9 = {
 			isa = PBXGroup;
 			children = (
-				0C91DA172863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift */,
-				0C91DA192863D2C700631DF3 /* GeometryReaderFrame.swift */,
 				0C03A701285D639800D029F9 /* SwiftUIPlayGround */,
 				0C03A700285D639800D029F9 /* Products */,
 			);
@@ -87,6 +87,7 @@
 		0C03A701285D639800D029F9 /* SwiftUIPlayGround */ = {
 			isa = PBXGroup;
 			children = (
+				0C91DA1B28651DAA00631DF3 /* GeometryReader */,
 				0C91DA142863C76400631DF3 /* Transition */,
 				0C8CBF682861A8D5001A0042 /* CustomAnimation */,
 				0C03A71D285F5B0B00D029F9 /* CustomGesture */,
@@ -96,6 +97,7 @@
 				0C03A710285D70E900D029F9 /* Layout.swift */,
 				0C03A706285D639A00D029F9 /* Assets.xcassets */,
 				0C03A708285D639A00D029F9 /* Preview Content */,
+				0C91DA1C28651DE200631DF3 /* BackGroundAndOverlay.swift */,
 			);
 			path = SwiftUIPlayGround;
 			sourceTree = "<group>";
@@ -148,6 +150,15 @@
 				0C91DA1228632F1E00631DF3 /* CustomTransitionOther.swift */,
 			);
 			path = Transition;
+			sourceTree = "<group>";
+		};
+		0C91DA1B28651DAA00631DF3 /* GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				0C91DA172863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift */,
+				0C91DA192863D2C700631DF3 /* GeometryReaderFrame.swift */,
+			);
+			path = GeometryReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +237,7 @@
 				0C03A719285DEE5C00D029F9 /* CustomShapeOther.swift in Sources */,
 				0C03A703285D639800D029F9 /* SwiftUIPlayGroundApp.swift in Sources */,
 				0C8CBF5F28616053001A0042 /* CustomAnimationWithViewObject.swift in Sources */,
+				0C91DA1D28651DE200631DF3 /* BackGroundAndOverlay.swift in Sources */,
 				0C8CBF6728616FFE001A0042 /* CustomAnimationVariation.swift in Sources */,
 				0C8CBF6A28627547001A0042 /* CustomTransition.swift in Sources */,
 				0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */,
