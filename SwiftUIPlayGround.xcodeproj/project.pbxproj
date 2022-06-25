@@ -29,6 +29,8 @@
 		0C91DA182863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA172863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift */; };
 		0C91DA1A2863D2C700631DF3 /* GeometryReaderFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA192863D2C700631DF3 /* GeometryReaderFrame.swift */; };
 		0C91DA1D28651DE200631DF3 /* BackGroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA1C28651DE200631DF3 /* BackGroundAndOverlay.swift */; };
+		0C91DA1F2867125700631DF3 /* Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA1E2867125700631DF3 /* Alignment.swift */; };
+		0C91DA23286718D200631DF3 /* AlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA22286718D200631DF3 /* AlignmentGuide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		0C91DA172863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderSizeSafeArea.swift; sourceTree = "<group>"; };
 		0C91DA192863D2C700631DF3 /* GeometryReaderFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderFrame.swift; sourceTree = "<group>"; };
 		0C91DA1C28651DE200631DF3 /* BackGroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundAndOverlay.swift; sourceTree = "<group>"; };
+		0C91DA1E2867125700631DF3 /* Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alignment.swift; sourceTree = "<group>"; };
+		0C91DA22286718D200631DF3 /* AlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				0C03A706285D639A00D029F9 /* Assets.xcassets */,
 				0C03A708285D639A00D029F9 /* Preview Content */,
 				0C91DA1C28651DE200631DF3 /* BackGroundAndOverlay.swift */,
+				0C91DA1E2867125700631DF3 /* Alignment.swift */,
+				0C91DA22286718D200631DF3 /* AlignmentGuide.swift */,
 			);
 			path = SwiftUIPlayGround;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 				0C8CBF6728616FFE001A0042 /* CustomAnimationVariation.swift in Sources */,
 				0C8CBF6A28627547001A0042 /* CustomTransition.swift in Sources */,
 				0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */,
+				0C91DA1F2867125700631DF3 /* Alignment.swift in Sources */,
 				0C91DA182863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift in Sources */,
 				0C8CBF5B286155AC001A0042 /* CustomRotationAndMag.swift in Sources */,
 				0C03A713285DE4ED00D029F9 /* CustumShapeLine.swift in Sources */,
@@ -250,6 +257,7 @@
 				0C03A723285F641900D029F9 /* CustomMagnification.swift in Sources */,
 				0C03A711285D70E900D029F9 /* Layout.swift in Sources */,
 				0C8CBF6328616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift in Sources */,
+				0C91DA23286718D200631DF3 /* AlignmentGuide.swift in Sources */,
 				0C91DA1328632F1E00631DF3 /* CustomTransitionOther.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
