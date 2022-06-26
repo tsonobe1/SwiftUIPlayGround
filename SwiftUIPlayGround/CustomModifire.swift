@@ -47,6 +47,7 @@ struct CustomTextModifireB: ViewModifier{
 }
 
 struct CustomModifire: View {
+    @State private var on: Bool = false
     var body: some View {
         VStack{
             // Custom Modifireを使用
@@ -68,9 +69,13 @@ struct CustomModifire: View {
                 Text("Textに独自のメソッド(modifire)をextensionで拡張")
                     .bold()
                 Text("Text C")
-                    .CustomViewModifire()
+                    .CustomTextModifire()
                 Image(systemName: "person.badge.key.fill")
                     .CustomImageModifire()
+                Button(action: {on.toggle()}) {
+                    Text(on ? "False" : "True")
+                }
+                .CustomButtonModifire()
             }
         }
     }
@@ -80,7 +85,7 @@ struct CustomModifire: View {
 
 // MARK: ②extensionで、Textに新しいmodifireを追加
 extension Text {
-    func CustomViewModifire() -> some View {
+    func CustomTextModifire() -> some View {
         // self = 拡張されるview object自身
         self
             .font(.title)
@@ -103,6 +108,18 @@ extension Image {
             .cornerRadius(10)
             .shadow(color: .gray, radius: 0, x: 10, y: 10)
         
+    }
+}
+    
+extension Button {
+    func CustomButtonModifire() -> some View {
+        self
+            .font(.system(size: 40))
+            .padding()
+            .frame(width: 200, height: 100)
+            .foregroundColor(.purple)
+            .border(.indigo, width: 5)
+            .shadow(color: .gray, radius: 10, x:5 , y: 5)
     }
 }
 

@@ -18,6 +18,7 @@
 		0C03A71F285F5B8E00D029F9 /* CustomTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03A71E285F5B8E00D029F9 /* CustomTap.swift */; };
 		0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03A720285F5F6A00D029F9 /* CustomDrag.swift */; };
 		0C03A723285F641900D029F9 /* CustomMagnification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03A722285F641900D029F9 /* CustomMagnification.swift */; };
+		0C0737BB2867F70100ECCD32 /* CustomViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737BA2867F70100ECCD32 /* CustomViewBuilder.swift */; };
 		0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */; };
 		0C8CBF5B286155AC001A0042 /* CustomRotationAndMag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF5A286155AC001A0042 /* CustomRotationAndMag.swift */; };
 		0C8CBF5F28616053001A0042 /* CustomAnimationWithViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF5E28616053001A0042 /* CustomAnimationWithViewObject.swift */; };
@@ -49,6 +50,7 @@
 		0C03A71E285F5B8E00D029F9 /* CustomTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTap.swift; sourceTree = "<group>"; };
 		0C03A720285F5F6A00D029F9 /* CustomDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDrag.swift; sourceTree = "<group>"; };
 		0C03A722285F641900D029F9 /* CustomMagnification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMagnification.swift; sourceTree = "<group>"; };
+		0C0737BA2867F70100ECCD32 /* CustomViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBuilder.swift; sourceTree = "<group>"; };
 		0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapMultiple.swift; sourceTree = "<group>"; };
 		0C8CBF5A286155AC001A0042 /* CustomRotationAndMag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRotationAndMag.swift; sourceTree = "<group>"; };
 		0C8CBF5E28616053001A0042 /* CustomAnimationWithViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationWithViewObject.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		0C03A6F6285D639800D029F9 = {
 			isa = PBXGroup;
 			children = (
+				0C0737BA2867F70100ECCD32 /* CustomViewBuilder.swift */,
 				0C03A701285D639800D029F9 /* SwiftUIPlayGround */,
 				0C03A700285D639800D029F9 /* Products */,
 			);
@@ -275,6 +278,7 @@
 				0C91DA1A2863D2C700631DF3 /* GeometryReaderFrame.swift in Sources */,
 				0C03A723285F641900D029F9 /* CustomMagnification.swift in Sources */,
 				0C03A711285D70E900D029F9 /* Layout.swift in Sources */,
+				0C0737BB2867F70100ECCD32 /* CustomViewBuilder.swift in Sources */,
 				0C8CBF6328616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift in Sources */,
 				0C91DA23286718D200631DF3 /* AlignmentGuide.swift in Sources */,
 				0C91DA1328632F1E00631DF3 /* CustomTransitionOther.swift in Sources */,
