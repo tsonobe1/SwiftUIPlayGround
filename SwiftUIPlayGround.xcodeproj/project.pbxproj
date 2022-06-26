@@ -32,6 +32,8 @@
 		0C91DA1F2867125700631DF3 /* Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA1E2867125700631DF3 /* Alignment.swift */; };
 		0C91DA23286718D200631DF3 /* AlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA22286718D200631DF3 /* AlignmentGuide.swift */; };
 		0C91DA252867DB4700631DF3 /* AlignmentTextBaseLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA242867DB4700631DF3 /* AlignmentTextBaseLine.swift */; };
+		0C91DA282867E27300631DF3 /* CustomPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA272867E27300631DF3 /* CustomPreferenceKey.swift */; };
+		0C91DA2A2867EA2C00631DF3 /* CustomModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA292867EA2C00631DF3 /* CustomModifire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		0C91DA1E2867125700631DF3 /* Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alignment.swift; sourceTree = "<group>"; };
 		0C91DA22286718D200631DF3 /* AlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide.swift; sourceTree = "<group>"; };
 		0C91DA242867DB4700631DF3 /* AlignmentTextBaseLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentTextBaseLine.swift; sourceTree = "<group>"; };
+		0C91DA272867E27300631DF3 /* CustomPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPreferenceKey.swift; sourceTree = "<group>"; };
+		0C91DA292867EA2C00631DF3 /* CustomModifire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				0C03A706285D639A00D029F9 /* Assets.xcassets */,
 				0C03A708285D639A00D029F9 /* Preview Content */,
 				0C91DA1C28651DE200631DF3 /* BackGroundAndOverlay.swift */,
+				0C91DA272867E27300631DF3 /* CustomPreferenceKey.swift */,
+				0C91DA292867EA2C00631DF3 /* CustomModifire.swift */,
 			);
 			path = SwiftUIPlayGround;
 			sourceTree = "<group>";
@@ -251,6 +257,7 @@
 				0C03A705285D639800D029F9 /* ContentView.swift in Sources */,
 				0C03A71F285F5B8E00D029F9 /* CustomTap.swift in Sources */,
 				0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */,
+				0C91DA2A2867EA2C00631DF3 /* CustomModifire.swift in Sources */,
 				0C03A719285DEE5C00D029F9 /* CustomShapeOther.swift in Sources */,
 				0C03A703285D639800D029F9 /* SwiftUIPlayGroundApp.swift in Sources */,
 				0C8CBF5F28616053001A0042 /* CustomAnimationWithViewObject.swift in Sources */,
@@ -271,6 +278,7 @@
 				0C8CBF6328616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift in Sources */,
 				0C91DA23286718D200631DF3 /* AlignmentGuide.swift in Sources */,
 				0C91DA1328632F1E00631DF3 /* CustomTransitionOther.swift in Sources */,
+				0C91DA282867E27300631DF3 /* CustomPreferenceKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
