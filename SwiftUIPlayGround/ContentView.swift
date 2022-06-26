@@ -64,6 +64,18 @@ struct ContentView: View {
                         Text("CustomTransitionOther")
                     }
                 }
+                Section(header: Text("Alignment")){
+                    NavigationLink(destination: Alignment()){
+                        Text("Alignment")
+                    }
+                    NavigationLink(destination: AlignmentGuide()){
+                        Text("AlignmentGuide")
+                    }
+                    NavigationLink(destination: AlignmentTextBaseLine()){
+                        Text("AlignmentTextBaseLine")
+                    }
+                }
+                
                 
             }.navigationTitle("🍎Swift UI Playground")
         }

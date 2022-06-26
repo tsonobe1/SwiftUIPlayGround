@@ -42,7 +42,11 @@ struct AlignmentGuide: View {
                 Rectangle()
                     .frame(width: 100, height: 100)
                     // ↓ not enabled
-                    .alignmentGuide(.top) { _ in -50 }
+                    .alignmentGuide(.top) { d in d[.bottom]-50 }
+                Rectangle()
+                    .frame(width: 100, height: 100)
+                    // ↓ enabled, ViewDimensions
+                    .alignmentGuide(.bottom) { d in d[.bottom] - d.height }
             }
             
             /*
@@ -52,8 +56,6 @@ struct AlignmentGuide: View {
               ①実数をハードコードする
               ②ViewDimensions型parameterを使う
              ことができる。
-             
-             
              */
             
         }
