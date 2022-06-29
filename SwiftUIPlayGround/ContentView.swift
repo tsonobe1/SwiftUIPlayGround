@@ -75,6 +75,22 @@ struct ContentView: View {
                         Text("AlignmentTextBaseLine")
                     }
                 }
+                Section(header: Text("Layout")){
+                    NavigationLink(destination: BackGroundAndOverlay()){
+                        Text("BackGroundAndOverlay")
+                    }
+                    NavigationLink(destination: Layout()){
+                        Text("Latout")
+                    }
+                    NavigationLink(destination: CustomText()){
+                        Text("CustomText")
+                    }
+                }
+                Section(header: Text("Input")){
+                    NavigationLink(destination: CustomTextField()){
+                        Text("CustomTextField")
+                    }
+                }
                 
                 
             }.navigationTitle("🍎Swift UI Playground")

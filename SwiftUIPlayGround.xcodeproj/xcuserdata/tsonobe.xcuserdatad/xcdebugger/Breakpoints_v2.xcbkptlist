@@ -14,10 +14,10 @@
             filePath = "SwiftUIPlayGround/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "previews"
-            landmarkType = "24">
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "ContentView_Previews"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

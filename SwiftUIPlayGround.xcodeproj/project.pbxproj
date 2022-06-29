@@ -20,6 +20,7 @@
 		0C03A723285F641900D029F9 /* CustomMagnification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03A722285F641900D029F9 /* CustomMagnification.swift */; };
 		0C0737BB2867F70100ECCD32 /* CustomViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737BA2867F70100ECCD32 /* CustomViewBuilder.swift */; };
 		0C0737BF286C6D2600ECCD32 /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737BE286C6D2600ECCD32 /* CustomText.swift */; };
+		0C0737C4286D00D100ECCD32 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737C3286D00D100ECCD32 /* CustomTextField.swift */; };
 		0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */; };
 		0C8CBF5B286155AC001A0042 /* CustomRotationAndMag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF5A286155AC001A0042 /* CustomRotationAndMag.swift */; };
 		0C8CBF5F28616053001A0042 /* CustomAnimationWithViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF5E28616053001A0042 /* CustomAnimationWithViewObject.swift */; };
@@ -53,6 +54,7 @@
 		0C03A722285F641900D029F9 /* CustomMagnification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMagnification.swift; sourceTree = "<group>"; };
 		0C0737BA2867F70100ECCD32 /* CustomViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBuilder.swift; sourceTree = "<group>"; };
 		0C0737BE286C6D2600ECCD32 /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		0C0737C3286D00D100ECCD32 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapMultiple.swift; sourceTree = "<group>"; };
 		0C8CBF5A286155AC001A0042 /* CustomRotationAndMag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRotationAndMag.swift; sourceTree = "<group>"; };
 		0C8CBF5E28616053001A0042 /* CustomAnimationWithViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationWithViewObject.swift; sourceTree = "<group>"; };
@@ -85,8 +87,6 @@
 		0C03A6F6285D639800D029F9 = {
 			isa = PBXGroup;
 			children = (
-				0C0737BA2867F70100ECCD32 /* CustomViewBuilder.swift */,
-				0C0737BE286C6D2600ECCD32 /* CustomText.swift */,
 				0C03A701285D639800D029F9 /* SwiftUIPlayGround */,
 				0C03A700285D639800D029F9 /* Products */,
 			);
@@ -109,14 +109,15 @@
 				0C8CBF682861A8D5001A0042 /* CustomAnimation */,
 				0C03A71D285F5B0B00D029F9 /* CustomGesture */,
 				0C03A71A285DF66700D029F9 /* CustomShape */,
-				0C03A702285D639800D029F9 /* SwiftUIPlayGroundApp.swift */,
+				0C0737C0286CFF4C00ECCD32 /* CustomLayout */,
 				0C03A704285D639800D029F9 /* ContentView.swift */,
-				0C03A710285D70E900D029F9 /* Layout.swift */,
+				0C0737C3286D00D100ECCD32 /* CustomTextField.swift */,
+				0C03A702285D639800D029F9 /* SwiftUIPlayGroundApp.swift */,
 				0C03A706285D639A00D029F9 /* Assets.xcassets */,
 				0C03A708285D639A00D029F9 /* Preview Content */,
-				0C91DA1C28651DE200631DF3 /* BackGroundAndOverlay.swift */,
 				0C91DA272867E27300631DF3 /* CustomPreferenceKey.swift */,
 				0C91DA292867EA2C00631DF3 /* CustomModifire.swift */,
+				0C0737BA2867F70100ECCD32 /* CustomViewBuilder.swift */,
 			);
 			path = SwiftUIPlayGround;
 			sourceTree = "<group>";
@@ -149,6 +150,16 @@
 				0C03A722285F641900D029F9 /* CustomMagnification.swift */,
 			);
 			path = CustomGesture;
+			sourceTree = "<group>";
+		};
+		0C0737C0286CFF4C00ECCD32 /* CustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0C0737BE286C6D2600ECCD32 /* CustomText.swift */,
+				0C91DA1C28651DE200631DF3 /* BackGroundAndOverlay.swift */,
+				0C03A710285D70E900D029F9 /* Layout.swift */,
+			);
+			path = CustomLayout;
 			sourceTree = "<group>";
 		};
 		0C8CBF682861A8D5001A0042 /* CustomAnimation */ = {
@@ -260,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0737C4286D00D100ECCD32 /* CustomTextField.swift in Sources */,
 				0C03A705285D639800D029F9 /* ContentView.swift in Sources */,
 				0C03A71F285F5B8E00D029F9 /* CustomTap.swift in Sources */,
 				0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */,
