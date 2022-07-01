@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomScrollView: View {
+struct SyncMultipleScrollView: View {
     @State private var scrollViewContentSize = CGFloat(800)
     @State private var scrollViewOffSet = CGFloat(0)
 
@@ -105,8 +105,8 @@ struct timeTableView: View{
     }
 }
 
-struct CustomScrollView_Previews: PreviewProvider {
+struct SyncMultipleScrollView_Previews: PreviewProvider {
     static var previews: some View {
-        CustomScrollView()
+        SyncMultipleScrollView()
     }
 }

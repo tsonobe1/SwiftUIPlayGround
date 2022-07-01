@@ -33,8 +33,8 @@ struct ContentView: View {
                     NavigationLink(destination: CustomMagnification()){
                         Text("CustomMagnification")
                     }
-                    NavigationLink(destination: CustomScrollView()){
-                        Text("CustomScrollView")
+                    NavigationLink(destination: SyncMultipleScrollView()){
+                        Text("SyncMultipleScrollView")
                     }
                     
                     NavigationLink(destination: CustomTapMultiple()){
