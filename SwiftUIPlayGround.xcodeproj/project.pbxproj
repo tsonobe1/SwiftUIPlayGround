@@ -24,6 +24,7 @@
 		0C0737C6286E54F400ECCD32 /* CustomMagnification2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737C5286E54F400ECCD32 /* CustomMagnification2.swift */; };
 		0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */; };
 		0C855309286F218A009D852B /* SyncMultipleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C855308286F218A009D852B /* SyncMultipleScrollView.swift */; };
+		0C85530C28744EE4009D852B /* SyncMultipleScrollView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85530B28744EE4009D852B /* SyncMultipleScrollView2.swift */; };
 		0C8CBF5B286155AC001A0042 /* CustomRotationAndMag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF5A286155AC001A0042 /* CustomRotationAndMag.swift */; };
 		0C8CBF5F28616053001A0042 /* CustomAnimationWithViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF5E28616053001A0042 /* CustomAnimationWithViewObject.swift */; };
 		0C8CBF61286167B6001A0042 /* CustomAnimationWithBindingPropertyWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF60286167B6001A0042 /* CustomAnimationWithBindingPropertyWithAnimation.swift */; };
@@ -60,6 +61,7 @@
 		0C0737C5286E54F400ECCD32 /* CustomMagnification2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMagnification2.swift; sourceTree = "<group>"; };
 		0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapMultiple.swift; sourceTree = "<group>"; };
 		0C855308286F218A009D852B /* SyncMultipleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView.swift; sourceTree = "<group>"; };
+		0C85530B28744EE4009D852B /* SyncMultipleScrollView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView2.swift; sourceTree = "<group>"; };
 		0C8CBF5A286155AC001A0042 /* CustomRotationAndMag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRotationAndMag.swift; sourceTree = "<group>"; };
 		0C8CBF5E28616053001A0042 /* CustomAnimationWithViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationWithViewObject.swift; sourceTree = "<group>"; };
 		0C8CBF60286167B6001A0042 /* CustomAnimationWithBindingPropertyWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationWithBindingPropertyWithAnimation.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		0C03A701285D639800D029F9 /* SwiftUIPlayGround */ = {
 			isa = PBXGroup;
 			children = (
+				0C85530A28744EC7009D852B /* ScrollView */,
 				0C91DA262867DB5500631DF3 /* Alignment */,
 				0C91DA1B28651DAA00631DF3 /* GeometryReader */,
 				0C91DA142863C76400631DF3 /* Transition */,
@@ -153,7 +156,6 @@
 				0C03A720285F5F6A00D029F9 /* CustomDrag.swift */,
 				0C03A722285F641900D029F9 /* CustomMagnification.swift */,
 				0C0737C5286E54F400ECCD32 /* CustomMagnification2.swift */,
-				0C855308286F218A009D852B /* SyncMultipleScrollView.swift */,
 			);
 			path = CustomGesture;
 			sourceTree = "<group>";
@@ -166,6 +168,15 @@
 				0C03A710285D70E900D029F9 /* Layout.swift */,
 			);
 			path = CustomLayout;
+			sourceTree = "<group>";
+		};
+		0C85530A28744EC7009D852B /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0C855308286F218A009D852B /* SyncMultipleScrollView.swift */,
+				0C85530B28744EE4009D852B /* SyncMultipleScrollView2.swift */,
+			);
+			path = ScrollView;
 			sourceTree = "<group>";
 		};
 		0C8CBF682861A8D5001A0042 /* CustomAnimation */ = {
@@ -292,6 +303,7 @@
 				0C8CBF6A28627547001A0042 /* CustomTransition.swift in Sources */,
 				0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */,
 				0C855309286F218A009D852B /* SyncMultipleScrollView.swift in Sources */,
+				0C85530C28744EE4009D852B /* SyncMultipleScrollView2.swift in Sources */,
 				0C91DA1F2867125700631DF3 /* Alignment.swift in Sources */,
 				0C91DA182863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift in Sources */,
 				0C91DA252867DB4700631DF3 /* AlignmentTextBaseLine.swift in Sources */,

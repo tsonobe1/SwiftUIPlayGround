@@ -16,12 +16,12 @@ struct SyncMultipleScrollView: View {
     var body: some View {
         ZStack(alignment: .top){
             ScrollView(.vertical, showsIndicators: false){
-                ForEach(0..<25){ i in
+                ForEach(0..<24){ i in
                     HStack{
                         Text("\(i):00")
                             .font(.caption)
-                        //                        Text("\(scrollViewContentSize)")
-                        //                            .font(.caption)
+                        Text("`\(scrollViewContentSize)")
+                            .font(.caption)
                         Rectangle()
                             .frame(height: 1)
                     }
@@ -29,7 +29,7 @@ struct SyncMultipleScrollView: View {
                     .frame(height: 2*20*1, alignment: .top)
                 }
                 .offset(x: 0, y: scrollViewOffSet)
-                .offset(x: 0, y: -47)
+//                .offset(x: 0, y: -47)
                 .background(
                     GeometryReader { geo -> Color in
                         DispatchQueue.main.async {
