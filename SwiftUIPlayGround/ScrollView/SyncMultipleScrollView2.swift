@@ -107,25 +107,7 @@ struct SyncMultipleScrollView2: View {
                             default:
                                 EmptyView()
                             }
-                            
-                           
-                            
-//
-//                            ForEach(1..<60){ x in
-//                                if magnifyBy > 3.5 {
-//                                HStack{
-//                                    Text("\(String(format: "%02d", i)):\(String(format: "%02d", x))")
-//                                        .font(.caption)
-//                                        .opacity(0.6)
-//                                    Rectangle()
-//                                        .frame(height: 1)
-//                                        .foregroundColor(.secondary.opacity(0.5))
-//                                }
-//                                .offset(y: -7+(scrollViewContentHeight/1440*CGFloat(x)))
-//                                .opacity(x != 30 ? 0 : 1)
-//
-//                                }
-//                            }
+                        
                         }
                     }
                     
@@ -136,7 +118,7 @@ struct SyncMultipleScrollView2: View {
                     GeometryReader{ proxy -> Color in
                         DispatchQueue.main.async {
                             scrollViewContentHeight = proxy.frame(in: .global).size.height
-                            scrollViewContentWitdh = proxy.size.width - 1
+                            scrollViewContentWitdh = proxy.size.width - 5
                         }
                         return Color.clear
                     }
