@@ -100,8 +100,6 @@ struct ContentView: View {
                         Text("CustomTextField")
                     }
                 }
-                
-                
             }.navigationTitle("🍎Swift UI Playground")
         }
     }
