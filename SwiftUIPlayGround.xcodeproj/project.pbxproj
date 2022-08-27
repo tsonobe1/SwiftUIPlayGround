@@ -23,6 +23,7 @@
 		0C0737C4286D00D100ECCD32 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737C3286D00D100ECCD32 /* CustomTextField.swift */; };
 		0C0737C6286E54F400ECCD32 /* CustomMagnification2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737C5286E54F400ECCD32 /* CustomMagnification2.swift */; };
 		0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */; };
+		0C74994628BA313400D38458 /* SyncMultipleScrollView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74994528BA313400D38458 /* SyncMultipleScrollView3.swift */; };
 		0C855309286F218A009D852B /* SyncMultipleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C855308286F218A009D852B /* SyncMultipleScrollView.swift */; };
 		0C85530C28744EE4009D852B /* SyncMultipleScrollView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85530B28744EE4009D852B /* SyncMultipleScrollView2.swift */; };
 		0C8CBF5B286155AC001A0042 /* CustomRotationAndMag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF5A286155AC001A0042 /* CustomRotationAndMag.swift */; };
@@ -61,6 +62,7 @@
 		0C0737C3286D00D100ECCD32 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		0C0737C5286E54F400ECCD32 /* CustomMagnification2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMagnification2.swift; sourceTree = "<group>"; };
 		0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapMultiple.swift; sourceTree = "<group>"; };
+		0C74994528BA313400D38458 /* SyncMultipleScrollView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView3.swift; sourceTree = "<group>"; };
 		0C855308286F218A009D852B /* SyncMultipleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView.swift; sourceTree = "<group>"; };
 		0C85530B28744EE4009D852B /* SyncMultipleScrollView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView2.swift; sourceTree = "<group>"; };
 		0C8CBF5A286155AC001A0042 /* CustomRotationAndMag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRotationAndMag.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			children = (
 				0C855308286F218A009D852B /* SyncMultipleScrollView.swift */,
 				0C85530B28744EE4009D852B /* SyncMultipleScrollView2.swift */,
+				0C74994528BA313400D38458 /* SyncMultipleScrollView3.swift */,
 				0CF8281A2876F5700095A3DF /* EventSample.swift */,
 			);
 			path = ScrollView;
@@ -310,6 +313,7 @@
 				0CF8281B2876F5700095A3DF /* EventSample.swift in Sources */,
 				0C91DA1F2867125700631DF3 /* Alignment.swift in Sources */,
 				0C91DA182863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift in Sources */,
+				0C74994628BA313400D38458 /* SyncMultipleScrollView3.swift in Sources */,
 				0C91DA252867DB4700631DF3 /* AlignmentTextBaseLine.swift in Sources */,
 				0C8CBF5B286155AC001A0042 /* CustomRotationAndMag.swift in Sources */,
 				0C03A713285DE4ED00D029F9 /* CustumShapeLine.swift in Sources */,
