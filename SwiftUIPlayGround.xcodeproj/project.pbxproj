@@ -22,6 +22,13 @@
 		0C0737BF286C6D2600ECCD32 /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737BE286C6D2600ECCD32 /* CustomText.swift */; };
 		0C0737C4286D00D100ECCD32 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737C3286D00D100ECCD32 /* CustomTextField.swift */; };
 		0C0737C6286E54F400ECCD32 /* CustomMagnification2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737C5286E54F400ECCD32 /* CustomMagnification2.swift */; };
+		0C1FE0C528C2E33F004517ED /* CustomDrag2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FE0C428C2E33F004517ED /* CustomDrag2.swift */; };
+		0C1FE0C728C41E43004517ED /* CustomShapeDinamicRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FE0C628C41E43004517ED /* CustomShapeDinamicRect.swift */; };
+		0C1FE0C928C43497004517ED /* CustomShapePlayGrond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FE0C828C43497004517ED /* CustomShapePlayGrond.swift */; };
+		0C1FE0CD28C479D6004517ED /* HidableCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FE0CC28C479D6004517ED /* HidableCard.swift */; };
+		0C5E3BF128D04311005D2312 /* ProgramScrollVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E3BF028D04311005D2312 /* ProgramScrollVIew.swift */; };
+		0C5E3BF328D04DC8005D2312 /* SyncMultipleScrollView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E3BF228D04DC8005D2312 /* SyncMultipleScrollView4.swift */; };
+		0C5E3BF528D065E5005D2312 /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E3BF428D065E5005D2312 /* Scroll.swift */; };
 		0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */; };
 		0C74994628BA313400D38458 /* SyncMultipleScrollView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74994528BA313400D38458 /* SyncMultipleScrollView3.swift */; };
 		0C855309286F218A009D852B /* SyncMultipleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C855308286F218A009D852B /* SyncMultipleScrollView.swift */; };
@@ -61,6 +68,13 @@
 		0C0737BE286C6D2600ECCD32 /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
 		0C0737C3286D00D100ECCD32 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		0C0737C5286E54F400ECCD32 /* CustomMagnification2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMagnification2.swift; sourceTree = "<group>"; };
+		0C1FE0C428C2E33F004517ED /* CustomDrag2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDrag2.swift; sourceTree = "<group>"; };
+		0C1FE0C628C41E43004517ED /* CustomShapeDinamicRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeDinamicRect.swift; sourceTree = "<group>"; };
+		0C1FE0C828C43497004517ED /* CustomShapePlayGrond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapePlayGrond.swift; sourceTree = "<group>"; };
+		0C1FE0CC28C479D6004517ED /* HidableCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HidableCard.swift; sourceTree = "<group>"; };
+		0C5E3BF028D04311005D2312 /* ProgramScrollVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramScrollVIew.swift; sourceTree = "<group>"; };
+		0C5E3BF228D04DC8005D2312 /* SyncMultipleScrollView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView4.swift; sourceTree = "<group>"; };
+		0C5E3BF428D065E5005D2312 /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
 		0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapMultiple.swift; sourceTree = "<group>"; };
 		0C74994528BA313400D38458 /* SyncMultipleScrollView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView3.swift; sourceTree = "<group>"; };
 		0C855308286F218A009D852B /* SyncMultipleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView.swift; sourceTree = "<group>"; };
@@ -146,6 +160,8 @@
 			children = (
 				0C03A712285DE4ED00D029F9 /* CustumShapeLine.swift */,
 				0C03A714285DEB6500D029F9 /* CustomShapeRect.swift */,
+				0C1FE0C628C41E43004517ED /* CustomShapeDinamicRect.swift */,
+				0C1FE0C828C43497004517ED /* CustomShapePlayGrond.swift */,
 				0C03A718285DEE5C00D029F9 /* CustomShapeOther.swift */,
 			);
 			path = CustomShape;
@@ -158,6 +174,7 @@
 				0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */,
 				0C8CBF5A286155AC001A0042 /* CustomRotationAndMag.swift */,
 				0C03A720285F5F6A00D029F9 /* CustomDrag.swift */,
+				0C1FE0C428C2E33F004517ED /* CustomDrag2.swift */,
 				0C03A722285F641900D029F9 /* CustomMagnification.swift */,
 				0C0737C5286E54F400ECCD32 /* CustomMagnification2.swift */,
 			);
@@ -179,6 +196,9 @@
 			children = (
 				0C855308286F218A009D852B /* SyncMultipleScrollView.swift */,
 				0C85530B28744EE4009D852B /* SyncMultipleScrollView2.swift */,
+				0C5E3BF228D04DC8005D2312 /* SyncMultipleScrollView4.swift */,
+				0C5E3BF428D065E5005D2312 /* Scroll.swift */,
+				0C5E3BF028D04311005D2312 /* ProgramScrollVIew.swift */,
 				0C74994528BA313400D38458 /* SyncMultipleScrollView3.swift */,
 				0CF8281A2876F5700095A3DF /* EventSample.swift */,
 			);
@@ -210,6 +230,7 @@
 			children = (
 				0C91DA172863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift */,
 				0C91DA192863D2C700631DF3 /* GeometryReaderFrame.swift */,
+				0C1FE0CC28C479D6004517ED /* HidableCard.swift */,
 			);
 			path = GeometryReader;
 			sourceTree = "<group>";
@@ -295,8 +316,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C0737C4286D00D100ECCD32 /* CustomTextField.swift in Sources */,
+				0C1FE0C728C41E43004517ED /* CustomShapeDinamicRect.swift in Sources */,
 				0C03A705285D639800D029F9 /* ContentView.swift in Sources */,
 				0C03A71F285F5B8E00D029F9 /* CustomTap.swift in Sources */,
+				0C1FE0C528C2E33F004517ED /* CustomDrag2.swift in Sources */,
+				0C1FE0C928C43497004517ED /* CustomShapePlayGrond.swift in Sources */,
 				0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */,
 				0C0737C6286E54F400ECCD32 /* CustomMagnification2.swift in Sources */,
 				0C91DA2A2867EA2C00631DF3 /* CustomModifire.swift in Sources */,
@@ -306,7 +330,9 @@
 				0C91DA1D28651DE200631DF3 /* BackGroundAndOverlay.swift in Sources */,
 				0C0737BF286C6D2600ECCD32 /* CustomText.swift in Sources */,
 				0C8CBF6728616FFE001A0042 /* CustomAnimationVariation.swift in Sources */,
+				0C5E3BF328D04DC8005D2312 /* SyncMultipleScrollView4.swift in Sources */,
 				0C8CBF6A28627547001A0042 /* CustomTransition.swift in Sources */,
+				0C5E3BF128D04311005D2312 /* ProgramScrollVIew.swift in Sources */,
 				0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */,
 				0C855309286F218A009D852B /* SyncMultipleScrollView.swift in Sources */,
 				0C85530C28744EE4009D852B /* SyncMultipleScrollView2.swift in Sources */,
@@ -323,9 +349,11 @@
 				0C03A723285F641900D029F9 /* CustomMagnification.swift in Sources */,
 				0C03A711285D70E900D029F9 /* Layout.swift in Sources */,
 				0C0737BB2867F70100ECCD32 /* CustomViewBuilder.swift in Sources */,
+				0C1FE0CD28C479D6004517ED /* HidableCard.swift in Sources */,
 				0C8CBF6328616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift in Sources */,
 				0C91DA23286718D200631DF3 /* AlignmentGuide.swift in Sources */,
 				0C91DA1328632F1E00631DF3 /* CustomTransitionOther.swift in Sources */,
+				0C5E3BF528D065E5005D2312 /* Scroll.swift in Sources */,
 				0C91DA282867E27300631DF3 /* CustomPreferenceKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

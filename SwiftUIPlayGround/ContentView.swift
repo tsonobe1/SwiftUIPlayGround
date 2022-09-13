@@ -21,6 +21,7 @@ struct ContentView: View {
                     NavigationLink(destination: CustomShapeOther()){
                         Text("CustomShapeOther")
                     }
+                    NavigationLink(destination: Rec()){ Text("CustomShapeDinamicRect")}
                 }
                 
                 Section(header: Text("Custom Gesture")){
@@ -29,6 +30,9 @@ struct ContentView: View {
                     }
                     NavigationLink(destination: CustomDrag()){
                         Text("CustomDrag")
+                    }
+                    NavigationLink(destination: CustomDrag2()){
+                        Text("CustomDrag2")
                     }
                     NavigationLink(destination: CustomMagnification()){
                         Text("CustomMagnification")
@@ -45,7 +49,7 @@ struct ContentView: View {
                     NavigationLink(destination: SyncMultipleScrollView()){
                         Text("Sync1")
                     }
-                    NavigationLink(destination: SyncMultipleScrollView2()){
+                    NavigationLink(destination: SyncMultipleScrollView4()){
                         Text("Sync2")
                     }
                 }
