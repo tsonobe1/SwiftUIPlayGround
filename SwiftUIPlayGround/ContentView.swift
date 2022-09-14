@@ -49,7 +49,7 @@ struct ContentView: View {
                     NavigationLink(destination: SyncMultipleScrollView()){
                         Text("Sync1")
                     }
-                    NavigationLink(destination: SyncMultipleScrollView4()){
+                    NavigationLink(destination: SyncMultipleScrollView5()){
                         Text("Sync2")
                     }
                 }

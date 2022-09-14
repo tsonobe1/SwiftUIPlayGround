@@ -29,6 +29,7 @@
 		0C5E3BF128D04311005D2312 /* ProgramScrollVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E3BF028D04311005D2312 /* ProgramScrollVIew.swift */; };
 		0C5E3BF328D04DC8005D2312 /* SyncMultipleScrollView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E3BF228D04DC8005D2312 /* SyncMultipleScrollView4.swift */; };
 		0C5E3BF528D065E5005D2312 /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E3BF428D065E5005D2312 /* Scroll.swift */; };
+		0C5E3BF728D134B6005D2312 /* SyncMultilpeScrollView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E3BF628D134B6005D2312 /* SyncMultilpeScrollView5.swift */; };
 		0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */; };
 		0C74994628BA313400D38458 /* SyncMultipleScrollView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74994528BA313400D38458 /* SyncMultipleScrollView3.swift */; };
 		0C855309286F218A009D852B /* SyncMultipleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C855308286F218A009D852B /* SyncMultipleScrollView.swift */; };
@@ -48,7 +49,6 @@
 		0C91DA252867DB4700631DF3 /* AlignmentTextBaseLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA242867DB4700631DF3 /* AlignmentTextBaseLine.swift */; };
 		0C91DA282867E27300631DF3 /* CustomPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA272867E27300631DF3 /* CustomPreferenceKey.swift */; };
 		0C91DA2A2867EA2C00631DF3 /* CustomModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA292867EA2C00631DF3 /* CustomModifire.swift */; };
-		0CF8281B2876F5700095A3DF /* EventSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF8281A2876F5700095A3DF /* EventSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +75,7 @@
 		0C5E3BF028D04311005D2312 /* ProgramScrollVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramScrollVIew.swift; sourceTree = "<group>"; };
 		0C5E3BF228D04DC8005D2312 /* SyncMultipleScrollView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView4.swift; sourceTree = "<group>"; };
 		0C5E3BF428D065E5005D2312 /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
+		0C5E3BF628D134B6005D2312 /* SyncMultilpeScrollView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultilpeScrollView5.swift; sourceTree = "<group>"; };
 		0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapMultiple.swift; sourceTree = "<group>"; };
 		0C74994528BA313400D38458 /* SyncMultipleScrollView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView3.swift; sourceTree = "<group>"; };
 		0C855308286F218A009D852B /* SyncMultipleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView.swift; sourceTree = "<group>"; };
@@ -94,7 +95,6 @@
 		0C91DA242867DB4700631DF3 /* AlignmentTextBaseLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentTextBaseLine.swift; sourceTree = "<group>"; };
 		0C91DA272867E27300631DF3 /* CustomPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPreferenceKey.swift; sourceTree = "<group>"; };
 		0C91DA292867EA2C00631DF3 /* CustomModifire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifire.swift; sourceTree = "<group>"; };
-		0CF8281A2876F5700095A3DF /* EventSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,11 +196,11 @@
 			children = (
 				0C855308286F218A009D852B /* SyncMultipleScrollView.swift */,
 				0C85530B28744EE4009D852B /* SyncMultipleScrollView2.swift */,
+				0C74994528BA313400D38458 /* SyncMultipleScrollView3.swift */,
 				0C5E3BF228D04DC8005D2312 /* SyncMultipleScrollView4.swift */,
+				0C5E3BF628D134B6005D2312 /* SyncMultilpeScrollView5.swift */,
 				0C5E3BF428D065E5005D2312 /* Scroll.swift */,
 				0C5E3BF028D04311005D2312 /* ProgramScrollVIew.swift */,
-				0C74994528BA313400D38458 /* SyncMultipleScrollView3.swift */,
-				0CF8281A2876F5700095A3DF /* EventSample.swift */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";
@@ -331,12 +331,12 @@
 				0C0737BF286C6D2600ECCD32 /* CustomText.swift in Sources */,
 				0C8CBF6728616FFE001A0042 /* CustomAnimationVariation.swift in Sources */,
 				0C5E3BF328D04DC8005D2312 /* SyncMultipleScrollView4.swift in Sources */,
+				0C5E3BF728D134B6005D2312 /* SyncMultilpeScrollView5.swift in Sources */,
 				0C8CBF6A28627547001A0042 /* CustomTransition.swift in Sources */,
 				0C5E3BF128D04311005D2312 /* ProgramScrollVIew.swift in Sources */,
 				0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */,
 				0C855309286F218A009D852B /* SyncMultipleScrollView.swift in Sources */,
 				0C85530C28744EE4009D852B /* SyncMultipleScrollView2.swift in Sources */,
-				0CF8281B2876F5700095A3DF /* EventSample.swift in Sources */,
 				0C91DA1F2867125700631DF3 /* Alignment.swift in Sources */,
 				0C91DA182863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift in Sources */,
 				0C74994628BA313400D38458 /* SyncMultipleScrollView3.swift in Sources */,
