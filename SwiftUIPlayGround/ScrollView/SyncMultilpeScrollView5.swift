@@ -48,7 +48,7 @@ struct SyncMultipleScrollView5: View {
         
     
     var body: some View {
-        ZStack(alignment: .top){
+//        ZStack(alignment: .top){
             //MARK: toScrollの移動先を設けるためのView
             ScrollViewReader { (scrollviewProxy2: ScrollViewProxy) in
                 ScrollView {
@@ -84,12 +84,13 @@ struct SyncMultipleScrollView5: View {
                                         Rectangle()
                                             .frame(height: 1)
                                             .foregroundColor(.secondary.opacity(0.7))
-                                            .background(GeometryReader{ proxy -> Color in
-                                                DispatchQueue.main.async {
-                                                    TimelineDividerWidth = proxy.size.width
-                                                }
-                                                return Color.clear
-                                            })
+                                            .background(
+                                                GeometryReader{ proxy -> Color in
+                                                    DispatchQueue.main.async {
+                                                        TimelineDividerWidth = proxy.size.width
+                                                    }
+                                                    return Color.clear
+                                                })
                                     }
                                     .offset(y: -7)
                                     // 1h分の列幅
@@ -237,7 +238,7 @@ struct SyncMultipleScrollView5: View {
                 }
                 .coordinateSpace(name: "scroll")
             }
-        }
+//        }
         //MARK: magnificationGestureの拡大率を利用してScrollViewをピンチイン・アウトする
         .gesture(MagnificationGesture()
             .onChanged{ value in

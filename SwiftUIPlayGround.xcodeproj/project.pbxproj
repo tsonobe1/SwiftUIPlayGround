@@ -22,10 +22,12 @@
 		0C0737BF286C6D2600ECCD32 /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737BE286C6D2600ECCD32 /* CustomText.swift */; };
 		0C0737C4286D00D100ECCD32 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737C3286D00D100ECCD32 /* CustomTextField.swift */; };
 		0C0737C6286E54F400ECCD32 /* CustomMagnification2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0737C5286E54F400ECCD32 /* CustomMagnification2.swift */; };
+		0C1E309E28FE429900B908A6 /* MonthlyCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E309D28FE429900B908A6 /* MonthlyCalender.swift */; };
 		0C1FE0C528C2E33F004517ED /* CustomDrag2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FE0C428C2E33F004517ED /* CustomDrag2.swift */; };
 		0C1FE0C728C41E43004517ED /* CustomShapeDinamicRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FE0C628C41E43004517ED /* CustomShapeDinamicRect.swift */; };
 		0C1FE0C928C43497004517ED /* CustomShapePlayGrond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FE0C828C43497004517ED /* CustomShapePlayGrond.swift */; };
 		0C1FE0CD28C479D6004517ED /* HidableCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FE0CC28C479D6004517ED /* HidableCard.swift */; };
+		0C339C0828DCB0BD00439868 /* CardDadeoutGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C339C0728DCB0BD00439868 /* CardDadeoutGradient.swift */; };
 		0C5E3BF128D04311005D2312 /* ProgramScrollVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E3BF028D04311005D2312 /* ProgramScrollVIew.swift */; };
 		0C5E3BF328D04DC8005D2312 /* SyncMultipleScrollView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E3BF228D04DC8005D2312 /* SyncMultipleScrollView4.swift */; };
 		0C5E3BF528D065E5005D2312 /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E3BF428D065E5005D2312 /* Scroll.swift */; };
@@ -49,6 +51,10 @@
 		0C91DA252867DB4700631DF3 /* AlignmentTextBaseLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA242867DB4700631DF3 /* AlignmentTextBaseLine.swift */; };
 		0C91DA282867E27300631DF3 /* CustomPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA272867E27300631DF3 /* CustomPreferenceKey.swift */; };
 		0C91DA2A2867EA2C00631DF3 /* CustomModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91DA292867EA2C00631DF3 /* CustomModifire.swift */; };
+		0C981A6E28F3D1D900B0BD5E /* PrintDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C981A6D28F3D1D900B0BD5E /* PrintDebug.swift */; };
+		0CB1F3E528FF64F900074E97 /* WeeklyBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1F3E428FF64F900074E97 /* WeeklyBar.swift */; };
+		0CB2042A28D28AA3007210CD /* Fadeinout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2042928D28AA3007210CD /* Fadeinout.swift */; };
+		0CB2042C28D36CBA007210CD /* Fadeinout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2042B28D36CBA007210CD /* Fadeinout2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,10 +74,12 @@
 		0C0737BE286C6D2600ECCD32 /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
 		0C0737C3286D00D100ECCD32 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		0C0737C5286E54F400ECCD32 /* CustomMagnification2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMagnification2.swift; sourceTree = "<group>"; };
+		0C1E309D28FE429900B908A6 /* MonthlyCalender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyCalender.swift; sourceTree = "<group>"; };
 		0C1FE0C428C2E33F004517ED /* CustomDrag2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDrag2.swift; sourceTree = "<group>"; };
 		0C1FE0C628C41E43004517ED /* CustomShapeDinamicRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeDinamicRect.swift; sourceTree = "<group>"; };
 		0C1FE0C828C43497004517ED /* CustomShapePlayGrond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapePlayGrond.swift; sourceTree = "<group>"; };
 		0C1FE0CC28C479D6004517ED /* HidableCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HidableCard.swift; sourceTree = "<group>"; };
+		0C339C0728DCB0BD00439868 /* CardDadeoutGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDadeoutGradient.swift; sourceTree = "<group>"; };
 		0C5E3BF028D04311005D2312 /* ProgramScrollVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramScrollVIew.swift; sourceTree = "<group>"; };
 		0C5E3BF228D04DC8005D2312 /* SyncMultipleScrollView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView4.swift; sourceTree = "<group>"; };
 		0C5E3BF428D065E5005D2312 /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
@@ -95,6 +103,10 @@
 		0C91DA242867DB4700631DF3 /* AlignmentTextBaseLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentTextBaseLine.swift; sourceTree = "<group>"; };
 		0C91DA272867E27300631DF3 /* CustomPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPreferenceKey.swift; sourceTree = "<group>"; };
 		0C91DA292867EA2C00631DF3 /* CustomModifire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifire.swift; sourceTree = "<group>"; };
+		0C981A6D28F3D1D900B0BD5E /* PrintDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintDebug.swift; sourceTree = "<group>"; };
+		0CB1F3E428FF64F900074E97 /* WeeklyBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyBar.swift; sourceTree = "<group>"; };
+		0CB2042928D28AA3007210CD /* Fadeinout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fadeinout.swift; sourceTree = "<group>"; };
+		0CB2042B28D36CBA007210CD /* Fadeinout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fadeinout2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,7 @@
 		0C03A6F6285D639800D029F9 = {
 			isa = PBXGroup;
 			children = (
+				0C981A6D28F3D1D900B0BD5E /* PrintDebug.swift */,
 				0C03A701285D639800D029F9 /* SwiftUIPlayGround */,
 				0C03A700285D639800D029F9 /* Products */,
 			);
@@ -136,7 +149,12 @@
 				0C03A71A285DF66700D029F9 /* CustomShape */,
 				0C0737C0286CFF4C00ECCD32 /* CustomLayout */,
 				0C03A704285D639800D029F9 /* ContentView.swift */,
+				0C1E309D28FE429900B908A6 /* MonthlyCalender.swift */,
+				0CB1F3E428FF64F900074E97 /* WeeklyBar.swift */,
+				0C339C0728DCB0BD00439868 /* CardDadeoutGradient.swift */,
 				0C0737C3286D00D100ECCD32 /* CustomTextField.swift */,
+				0CB2042928D28AA3007210CD /* Fadeinout.swift */,
+				0CB2042B28D36CBA007210CD /* Fadeinout2.swift */,
 				0C03A702285D639800D029F9 /* SwiftUIPlayGroundApp.swift */,
 				0C03A706285D639A00D029F9 /* Assets.xcassets */,
 				0C03A708285D639A00D029F9 /* Preview Content */,
@@ -315,18 +333,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C339C0828DCB0BD00439868 /* CardDadeoutGradient.swift in Sources */,
 				0C0737C4286D00D100ECCD32 /* CustomTextField.swift in Sources */,
 				0C1FE0C728C41E43004517ED /* CustomShapeDinamicRect.swift in Sources */,
 				0C03A705285D639800D029F9 /* ContentView.swift in Sources */,
 				0C03A71F285F5B8E00D029F9 /* CustomTap.swift in Sources */,
 				0C1FE0C528C2E33F004517ED /* CustomDrag2.swift in Sources */,
 				0C1FE0C928C43497004517ED /* CustomShapePlayGrond.swift in Sources */,
+				0CB2042C28D36CBA007210CD /* Fadeinout2.swift in Sources */,
 				0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */,
 				0C0737C6286E54F400ECCD32 /* CustomMagnification2.swift in Sources */,
 				0C91DA2A2867EA2C00631DF3 /* CustomModifire.swift in Sources */,
 				0C03A719285DEE5C00D029F9 /* CustomShapeOther.swift in Sources */,
 				0C03A703285D639800D029F9 /* SwiftUIPlayGroundApp.swift in Sources */,
 				0C8CBF5F28616053001A0042 /* CustomAnimationWithViewObject.swift in Sources */,
+				0C1E309E28FE429900B908A6 /* MonthlyCalender.swift in Sources */,
 				0C91DA1D28651DE200631DF3 /* BackGroundAndOverlay.swift in Sources */,
 				0C0737BF286C6D2600ECCD32 /* CustomText.swift in Sources */,
 				0C8CBF6728616FFE001A0042 /* CustomAnimationVariation.swift in Sources */,
@@ -340,16 +361,19 @@
 				0C91DA1F2867125700631DF3 /* Alignment.swift in Sources */,
 				0C91DA182863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift in Sources */,
 				0C74994628BA313400D38458 /* SyncMultipleScrollView3.swift in Sources */,
+				0C981A6E28F3D1D900B0BD5E /* PrintDebug.swift in Sources */,
 				0C91DA252867DB4700631DF3 /* AlignmentTextBaseLine.swift in Sources */,
 				0C8CBF5B286155AC001A0042 /* CustomRotationAndMag.swift in Sources */,
 				0C03A713285DE4ED00D029F9 /* CustumShapeLine.swift in Sources */,
 				0C03A715285DEB6500D029F9 /* CustomShapeRect.swift in Sources */,
 				0C8CBF61286167B6001A0042 /* CustomAnimationWithBindingPropertyWithAnimation.swift in Sources */,
 				0C91DA1A2863D2C700631DF3 /* GeometryReaderFrame.swift in Sources */,
+				0CB2042A28D28AA3007210CD /* Fadeinout.swift in Sources */,
 				0C03A723285F641900D029F9 /* CustomMagnification.swift in Sources */,
 				0C03A711285D70E900D029F9 /* Layout.swift in Sources */,
 				0C0737BB2867F70100ECCD32 /* CustomViewBuilder.swift in Sources */,
 				0C1FE0CD28C479D6004517ED /* HidableCard.swift in Sources */,
+				0CB1F3E528FF64F900074E97 /* WeeklyBar.swift in Sources */,
 				0C8CBF6328616D89001A0042 /* CustomAnimationWithBindingPropertyWithModifire.swift in Sources */,
 				0C91DA23286718D200631DF3 /* AlignmentGuide.swift in Sources */,
 				0C91DA1328632F1E00631DF3 /* CustomTransitionOther.swift in Sources */,

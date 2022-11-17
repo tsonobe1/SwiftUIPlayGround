@@ -52,6 +52,9 @@ struct ContentView: View {
                     NavigationLink(destination: SyncMultipleScrollView5()){
                         Text("Sync2")
                     }
+                    NavigationLink(destination: MonthlyCalender()){
+                        Text("MonthlyCalender")
+                    }
                 }
                 
                 Section(header: Text("Custom Animation")){
@@ -67,6 +70,15 @@ struct ContentView: View {
                     NavigationLink(destination: CustomAnimationVariation()){
                         Text("CustomAnimationVariation")
                     }
+                    NavigationLink(destination: Fadeinout()){
+                        Text("Fadeinout")
+                    }
+                    NavigationLink(destination: Fadeinout2()){
+                        Text("Fadeinout2")
+                    }
+                }
+                Section(header: Text("Debug")){
+                    NavigationLink(destination: PrintDebug()){Text("Print")}
                 }
                 
                 Section(header: Text("Transition")){
