@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct CardDadeoutGradient: View {
-    var tx = "マンチカンは大変dす。"
+struct CardGradient: View {
+    var tx = "TEST"
     
     var body: some View {
         VStack {
@@ -25,8 +25,8 @@ struct CardDadeoutGradient: View {
     }
 }
 
-struct CardDadeoutGradient_Previews: PreviewProvider {
+struct Card_Previews: PreviewProvider {
     static var previews: some View {
-            CardDadeoutGradient()
+            CardGradient()
     }
 }

@@ -16,7 +16,7 @@ extension UIColor {
     }
 }
 
-struct CustomAnimationWithBindingPropertyWithAnimation: View {
+struct CustomAnimationWithBindingProperty1: View {
     @State private var on:Bool = false
     
     var body: some View {
@@ -74,8 +74,8 @@ struct CustomAnimationWithBindingPropertyWithAnimation: View {
     }
 }
 
-struct CustomAnimationWithBindingProperty_Previews: PreviewProvider {
+struct CustomAnimationWithBindingProperty1_Previews: PreviewProvider {
     static var previews: some View {
-        CustomAnimationWithBindingPropertyWithAnimation()
+        CustomAnimationWithBindingProperty1()
     }
 }

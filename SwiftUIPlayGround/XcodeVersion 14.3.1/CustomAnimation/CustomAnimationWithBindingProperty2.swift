@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomAnimationWithBindingPropertyWithModifire: View {
+struct CustomAnimationWithBindingProperty2: View {
     @State private var on:Bool = false
 
     var body: some View {
@@ -32,6 +32,6 @@ struct CustomAnimationWithBindingPropertyWithModifire: View {
 
 struct CustomAnimationWithBindingProperty2_Previews: PreviewProvider {
     static var previews: some View {
-        CustomAnimationWithBindingPropertyWithModifire()
+        CustomAnimationWithBindingProperty2()
     }
 }

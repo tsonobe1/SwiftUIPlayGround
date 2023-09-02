@@ -11,10 +11,12 @@ struct MonthlyCalender: View {
     let week:[String] = ["San","Mon","Tue","Wed","Thu","Fri","Sat"]
     @State var diff: Int = 0
     @State private var isNavigation = false // Navigation
+    @State private var selectedDate: Date = Date()
     
     var body: some View {
         VStack(alignment: .leading) {
             // MARK: Button for debugging
+            
             Group {
                 Stepper(value: $diff, in: -1000...1000) {
                     Text("Diff")
@@ -30,6 +32,11 @@ struct MonthlyCalender: View {
             let year = calendar.component(.year, from: date)
             let month = calendar.component(.month, from: date)
             let day = calendar.component(.day, from: date)
+            
+            // Navigation to Day Detail
+            NavigationLink(destination: Text("\(selectedDate)"), isActive: self.$isNavigation) {
+                EmptyView()
+            }
             
             // MARK: Year - Month
             Group {
@@ -50,6 +57,7 @@ struct MonthlyCalender: View {
                     Text(i)
                 }
                 
+               
                 // 操作している日からdiff日移動させた日が属する月の初日〜最終日を取得
                 let days:[Date] = date.getAllDays()
                 // ↑で取得した月の初日の曜日を取得
@@ -57,30 +65,32 @@ struct MonthlyCalender: View {
                 let end = start + days.count
                 
                 // 6 * 7のマス目を作成
+                
                 ForEach((0...41), id: \.self) { index in
-                    Button {
-                        print("\(index - start + 1)")
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 10)
+                            .fill(.thinMaterial)
+                            .frame(width: 50, height: 50)
+                        
+                        let _ = print("Index = \(index)")
+                        let _ = print("start = \(start)")
+                        let _ = print("end = \(end)")
+                        
+                        if(index >= start && index < end) {
+                            // 表示の位置をズラす
+                            let i = index - start
+                            let _ = print("i = \(i)")
+
+                            Text(days[i].DateToString(format: "d"))
+                                .font(.title2)
+                                .foregroundColor(isSameMonthDate(days[i], Date()) ? .red : .primary)
+                        }
+                    }
+                    .frame(width: 50, height: 45)
+                    .onTapGesture {
                         isNavigation.toggle()
-                        // 選択した日付のDateを生成
-                        let date = calendar.date(from: DateComponents(year: year, month: month, day: index - start + 1))
-                        NavigationLink(destination: Text("TEST"), isActive: self.$isNavigation) {
-                            EmptyView()
-                        }
-                    } label: {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 10)
-                                .fill(.thinMaterial)
-                                .frame(width: 50, height: 50)
-                            
-                            if(index >= start && index < end) {
-                                // 表示の位置をズラす
-                                let i = index - start
-                                Text(days[i].DateToString(format: "d"))
-                                    .font(.title2)
-                                    .foregroundColor(isSameMonthDate(days[i], Date()) ? .red : .primary)
-                            }
-                        }
-                        .frame(width: 50, height: 45)
+                        // 選択した日付のDateを生成してnavigationLinkに使う
+                        selectedDate = calendar.date(from: DateComponents(year: year, month: month, day: index - start + 1))!
                     }
                 }
             }

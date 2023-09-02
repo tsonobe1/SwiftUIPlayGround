@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  ContentViewXcodeVersion14.3.1.swift
 //  SwiftUIPlayGround
 //
-//  Created by 薗部拓人 on 2022/06/18.
+//  Created by tsonobe on 2023/09/02.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentViewXcodeVersion14_3_1: View {
     var body: some View {
         NavigationView{
             List{
@@ -55,17 +55,20 @@ struct ContentView: View {
                     NavigationLink(destination: MonthlyCalender()){
                         Text("MonthlyCalender")
                     }
+                    NavigationLink(destination: ListBackGroundTest()){
+                        Text("ListBackGround")
+                    }
                 }
                 
                 Section(header: Text("Custom Animation")){
                     NavigationLink(destination: CustomAnimationWithViewObject()){
                         Text("CustomAnimationWithViewObject")
                     }
-                    NavigationLink(destination: CustomAnimationWithBindingPropertyWithAnimation()){
-                        Text("CustomAnimationWithBindingPropertyWithAnimation")
+                    NavigationLink(destination: CustomAnimationWithBindingProperty1()){
+                        Text("CustomAnimationWithBindingProperty1")
                     }
-                    NavigationLink(destination: CustomAnimationWithBindingPropertyWithModifire()){
-                        Text("CustomAnimationWithBindingPropertyWithModifire")
+                    NavigationLink(destination: CustomAnimationWithBindingProperty2()){
+                        Text("CustomAnimationWithBindingProperty2")
                     }
                     NavigationLink(destination: CustomAnimationVariation()){
                         Text("CustomAnimationVariation")
@@ -121,9 +124,9 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentViewXcodeVersion14_3_1_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentViewXcodeVersion14_3_1()
             .previewInterfaceOrientation(.portraitUpsideDown)
     }
 }
