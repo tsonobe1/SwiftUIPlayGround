@@ -36,6 +36,16 @@
 		0C6756832938EE4E00B98853 /* CalenderByOpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6756822938EE4E00B98853 /* CalenderByOpenAI.swift */; };
 		0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */; };
 		0C74994628BA313400D38458 /* SyncMultipleScrollView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74994528BA313400D38458 /* SyncMultipleScrollView3.swift */; };
+		0C74ED152AA3471600957167 /* scroll4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74ED0B2AA3471600957167 /* scroll4.swift */; };
+		0C74ED162AA3471600957167 /* scroll2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74ED0C2AA3471600957167 /* scroll2.swift */; };
+		0C74ED172AA3471600957167 /* scroll7Working.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74ED0D2AA3471600957167 /* scroll7Working.swift */; };
+		0C74ED182AA3471600957167 /* scroll6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74ED0E2AA3471600957167 /* scroll6.swift */; };
+		0C74ED192AA3471600957167 /* scroll8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74ED0F2AA3471600957167 /* scroll8.swift */; };
+		0C74ED1A2AA3471600957167 /* scroll9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74ED102AA3471600957167 /* scroll9.swift */; };
+		0C74ED1B2AA3471600957167 /* scroll7Notworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74ED112AA3471600957167 /* scroll7Notworking.swift */; };
+		0C74ED1C2AA3471600957167 /* scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74ED122AA3471600957167 /* scroll.swift */; };
+		0C74ED1D2AA3471600957167 /* scroll3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74ED132AA3471600957167 /* scroll3.swift */; };
+		0C74ED1E2AA3471600957167 /* scroll5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74ED142AA3471600957167 /* scroll5.swift */; };
 		0C855309286F218A009D852B /* SyncMultipleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C855308286F218A009D852B /* SyncMultipleScrollView.swift */; };
 		0C85530C28744EE4009D852B /* SyncMultipleScrollView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85530B28744EE4009D852B /* SyncMultipleScrollView2.swift */; };
 		0C8CBF5B286155AC001A0042 /* CustomRotationAndMag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CBF5A286155AC001A0042 /* CustomRotationAndMag.swift */; };
@@ -95,6 +105,16 @@
 		0C6756822938EE4E00B98853 /* CalenderByOpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderByOpenAI.swift; sourceTree = "<group>"; };
 		0C6BC02128614DCA005229AB /* CustomTapMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapMultiple.swift; sourceTree = "<group>"; };
 		0C74994528BA313400D38458 /* SyncMultipleScrollView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView3.swift; sourceTree = "<group>"; };
+		0C74ED0B2AA3471600957167 /* scroll4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scroll4.swift; sourceTree = "<group>"; };
+		0C74ED0C2AA3471600957167 /* scroll2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scroll2.swift; sourceTree = "<group>"; };
+		0C74ED0D2AA3471600957167 /* scroll7Working.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scroll7Working.swift; sourceTree = "<group>"; };
+		0C74ED0E2AA3471600957167 /* scroll6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scroll6.swift; sourceTree = "<group>"; };
+		0C74ED0F2AA3471600957167 /* scroll8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scroll8.swift; sourceTree = "<group>"; };
+		0C74ED102AA3471600957167 /* scroll9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scroll9.swift; sourceTree = "<group>"; };
+		0C74ED112AA3471600957167 /* scroll7Notworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scroll7Notworking.swift; sourceTree = "<group>"; };
+		0C74ED122AA3471600957167 /* scroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scroll.swift; sourceTree = "<group>"; };
+		0C74ED132AA3471600957167 /* scroll3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scroll3.swift; sourceTree = "<group>"; };
+		0C74ED142AA3471600957167 /* scroll5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scroll5.swift; sourceTree = "<group>"; };
 		0C855308286F218A009D852B /* SyncMultipleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView.swift; sourceTree = "<group>"; };
 		0C85530B28744EE4009D852B /* SyncMultipleScrollView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMultipleScrollView2.swift; sourceTree = "<group>"; };
 		0C8CBF5A286155AC001A0042 /* CustomRotationAndMag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRotationAndMag.swift; sourceTree = "<group>"; };
@@ -155,6 +175,7 @@
 		0C03A701285D639800D029F9 /* SwiftUIPlayGround */ = {
 			isa = PBXGroup;
 			children = (
+				0C74ECF52AA3451000957167 /* XcodeVersion 15.0.0Beta */,
 				0CBEC3022AA342B700A9BC4E /* XcodeVersion 14.3.1 */,
 				0C03A706285D639A00D029F9 /* Assets.xcassets */,
 				0C03A708285D639A00D029F9 /* Preview Content */,
@@ -218,6 +239,31 @@
 				0C6756822938EE4E00B98853 /* CalenderByOpenAI.swift */,
 			);
 			path = ByOpenAI;
+			sourceTree = "<group>";
+		};
+		0C74ECF52AA3451000957167 /* XcodeVersion 15.0.0Beta */ = {
+			isa = PBXGroup;
+			children = (
+				0C74ECF62AA3452B00957167 /* WeeklyCalenderPrototype */,
+			);
+			path = "XcodeVersion 15.0.0Beta";
+			sourceTree = "<group>";
+		};
+		0C74ECF62AA3452B00957167 /* WeeklyCalenderPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				0C74ED122AA3471600957167 /* scroll.swift */,
+				0C74ED0C2AA3471600957167 /* scroll2.swift */,
+				0C74ED132AA3471600957167 /* scroll3.swift */,
+				0C74ED0B2AA3471600957167 /* scroll4.swift */,
+				0C74ED142AA3471600957167 /* scroll5.swift */,
+				0C74ED0E2AA3471600957167 /* scroll6.swift */,
+				0C74ED112AA3471600957167 /* scroll7Notworking.swift */,
+				0C74ED0D2AA3471600957167 /* scroll7Working.swift */,
+				0C74ED0F2AA3471600957167 /* scroll8.swift */,
+				0C74ED102AA3471600957167 /* scroll9.swift */,
+			);
+			path = WeeklyCalenderPrototype;
 			sourceTree = "<group>";
 		};
 		0C85530A28744EC7009D852B /* ScrollView */ = {
@@ -388,8 +434,10 @@
 				0C4203782983F8C400FB114E /* ListBackGroundTest.swift in Sources */,
 				0CF0A0062938F46B000BFE47 /* KindleByOpenAI.swift in Sources */,
 				0CF0A0042938F386000BFE47 /* RocketPathByOpenAI.swift in Sources */,
+				0C74ED1B2AA3471600957167 /* scroll7Notworking.swift in Sources */,
 				0C1FE0C528C2E33F004517ED /* CustomDrag2.swift in Sources */,
 				0C1FE0C928C43497004517ED /* CustomShapePlayGrond.swift in Sources */,
+				0C74ED182AA3471600957167 /* scroll6.swift in Sources */,
 				0CB2042C28D36CBA007210CD /* Fadeinout2.swift in Sources */,
 				0C6BC02228614DCA005229AB /* CustomTapMultiple.swift in Sources */,
 				0C0737C6286E54F400ECCD32 /* CustomMagnification2.swift in Sources */,
@@ -403,11 +451,14 @@
 				0C0737BF286C6D2600ECCD32 /* CustomText.swift in Sources */,
 				0C8CBF6728616FFE001A0042 /* CustomAnimationVariation.swift in Sources */,
 				0C5E3BF328D04DC8005D2312 /* SyncMultipleScrollView4.swift in Sources */,
+				0C74ED1E2AA3471600957167 /* scroll5.swift in Sources */,
 				0C5E3BF728D134B6005D2312 /* SyncMultilpeScrollView5.swift in Sources */,
 				0C8CBF6A28627547001A0042 /* CustomTransition.swift in Sources */,
 				0C5E3BF128D04311005D2312 /* ProgramScrollVIew.swift in Sources */,
 				0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */,
 				0C855309286F218A009D852B /* SyncMultipleScrollView.swift in Sources */,
+				0C74ED1C2AA3471600957167 /* scroll.swift in Sources */,
+				0C74ED172AA3471600957167 /* scroll7Working.swift in Sources */,
 				0CBEC3042AA3431F00A9BC4E /* ContentViewXcodeVersion14.3.1.swift in Sources */,
 				0C85530C28744EE4009D852B /* SyncMultipleScrollView2.swift in Sources */,
 				0C91DA1F2867125700631DF3 /* Alignment.swift in Sources */,
@@ -418,17 +469,22 @@
 				0C6756832938EE4E00B98853 /* CalenderByOpenAI.swift in Sources */,
 				0C8CBF5B286155AC001A0042 /* CustomRotationAndMag.swift in Sources */,
 				0C03A713285DE4ED00D029F9 /* CustumShapeLine.swift in Sources */,
+				0C74ED1A2AA3471600957167 /* scroll9.swift in Sources */,
 				0CBA2F2F2929AB22005AC6E7 /* WeekView.swift in Sources */,
+				0C74ED1D2AA3471600957167 /* scroll3.swift in Sources */,
 				0C03A715285DEB6500D029F9 /* CustomShapeRect.swift in Sources */,
 				0C8CBF61286167B6001A0042 /* CustomAnimationWithBindingProperty1.swift in Sources */,
 				0C91DA1A2863D2C700631DF3 /* GeometryReaderFrame.swift in Sources */,
 				0CB2042A28D28AA3007210CD /* Fadeinout.swift in Sources */,
+				0C74ED152AA3471600957167 /* scroll4.swift in Sources */,
 				0C03A723285F641900D029F9 /* CustomMagnification.swift in Sources */,
+				0C74ED162AA3471600957167 /* scroll2.swift in Sources */,
 				0C03A711285D70E900D029F9 /* Layout.swift in Sources */,
 				0C1FE0CD28C479D6004517ED /* HidableCard.swift in Sources */,
 				0CB1F3E528FF64F900074E97 /* WeeklyBar.swift in Sources */,
 				0C8CBF6328616D89001A0042 /* CustomAnimationWithBindingProperty2.swift in Sources */,
 				0C91DA23286718D200631DF3 /* AlignmentGuide.swift in Sources */,
+				0C74ED192AA3471600957167 /* scroll8.swift in Sources */,
 				0C91DA1328632F1E00631DF3 /* CustomTransitionOther.swift in Sources */,
 				0C5E3BF528D065E5005D2312 /* Scroll.swift in Sources */,
 			);
@@ -567,7 +623,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -597,7 +653,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
