@@ -68,6 +68,10 @@
 		0CB2042C28D36CBA007210CD /* Fadeinout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2042B28D36CBA007210CD /* Fadeinout2.swift */; };
 		0CBA2F2F2929AB22005AC6E7 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA2F2E2929AB22005AC6E7 /* WeekView.swift */; };
 		0CBEC3042AA3431F00A9BC4E /* ContentViewXcodeVersion14.3.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBEC3032AA3431F00A9BC4E /* ContentViewXcodeVersion14.3.1.swift */; };
+		0CD083D82AA745D20040484A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD083D72AA745D20040484A /* Extension.swift */; };
+		0CD083DA2AA7460C0040484A /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD083D92AA7460C0040484A /* SampleData.swift */; };
+		0CD083DD2AA7476D0040484A /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD083DC2AA7476D0040484A /* SampleModel.swift */; };
+		0CD083DF2AA748A60040484A /* NoteBookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD083DE2AA748A60040484A /* NoteBookList.swift */; };
 		0CF0A0002938F20C000BFE47 /* CalculatorByOpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF09FFF2938F20C000BFE47 /* CalculatorByOpenAI.swift */; };
 		0CF0A0022938F31C000BFE47 /* WeekbarByOpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF0A0012938F31C000BFE47 /* WeekbarByOpenAI.swift */; };
 		0CF0A0042938F386000BFE47 /* RocketPathByOpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF0A0032938F386000BFE47 /* RocketPathByOpenAI.swift */; };
@@ -137,6 +141,10 @@
 		0CB2042B28D36CBA007210CD /* Fadeinout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fadeinout2.swift; sourceTree = "<group>"; };
 		0CBA2F2E2929AB22005AC6E7 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		0CBEC3032AA3431F00A9BC4E /* ContentViewXcodeVersion14.3.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewXcodeVersion14.3.1.swift; sourceTree = "<group>"; };
+		0CD083D72AA745D20040484A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		0CD083D92AA7460C0040484A /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		0CD083DC2AA7476D0040484A /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
+		0CD083DE2AA748A60040484A /* NoteBookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteBookList.swift; sourceTree = "<group>"; };
 		0CF09FFF2938F20C000BFE47 /* CalculatorByOpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorByOpenAI.swift; sourceTree = "<group>"; };
 		0CF0A0012938F31C000BFE47 /* WeekbarByOpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekbarByOpenAI.swift; sourceTree = "<group>"; };
 		0CF0A0032938F386000BFE47 /* RocketPathByOpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketPathByOpenAI.swift; sourceTree = "<group>"; };
@@ -244,6 +252,7 @@
 		0C74ECF52AA3451000957167 /* XcodeVersion 15.0.0Beta */ = {
 			isa = PBXGroup;
 			children = (
+				0CD083DB2AA747600040484A /* SwiftDataPlayGround */,
 				0C74ECF62AA3452B00957167 /* WeeklyCalenderPrototype */,
 			);
 			path = "XcodeVersion 15.0.0Beta";
@@ -257,8 +266,10 @@
 				0C74ED132AA3471600957167 /* scroll3.swift */,
 				0C74ED0B2AA3471600957167 /* scroll4.swift */,
 				0C74ED142AA3471600957167 /* scroll5.swift */,
+				0CD083D72AA745D20040484A /* Extension.swift */,
 				0C74ED0E2AA3471600957167 /* scroll6.swift */,
 				0C74ED112AA3471600957167 /* scroll7Notworking.swift */,
+				0CD083D92AA7460C0040484A /* SampleData.swift */,
 				0C74ED0D2AA3471600957167 /* scroll7Working.swift */,
 				0C74ED0F2AA3471600957167 /* scroll8.swift */,
 				0C74ED102AA3471600957167 /* scroll9.swift */,
@@ -354,6 +365,15 @@
 			path = "XcodeVersion 14.3.1";
 			sourceTree = "<group>";
 		};
+		0CD083DB2AA747600040484A /* SwiftDataPlayGround */ = {
+			isa = PBXGroup;
+			children = (
+				0CD083DC2AA7476D0040484A /* SampleModel.swift */,
+				0CD083DE2AA748A60040484A /* NoteBookList.swift */,
+			);
+			path = SwiftDataPlayGround;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -425,6 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CF0A0002938F20C000BFE47 /* CalculatorByOpenAI.swift in Sources */,
+				0CD083DD2AA7476D0040484A /* SampleModel.swift in Sources */,
 				0C339C0828DCB0BD00439868 /* CardGradient.swift in Sources */,
 				0C0737C4286D00D100ECCD32 /* CustomTextField.swift in Sources */,
 				0C1FE0C728C41E43004517ED /* CustomShapeDinamicRect.swift in Sources */,
@@ -457,12 +478,14 @@
 				0C5E3BF128D04311005D2312 /* ProgramScrollVIew.swift in Sources */,
 				0C03A721285F5F6A00D029F9 /* CustomDrag.swift in Sources */,
 				0C855309286F218A009D852B /* SyncMultipleScrollView.swift in Sources */,
+				0CD083DA2AA7460C0040484A /* SampleData.swift in Sources */,
 				0C74ED1C2AA3471600957167 /* scroll.swift in Sources */,
 				0C74ED172AA3471600957167 /* scroll7Working.swift in Sources */,
 				0CBEC3042AA3431F00A9BC4E /* ContentViewXcodeVersion14.3.1.swift in Sources */,
 				0C85530C28744EE4009D852B /* SyncMultipleScrollView2.swift in Sources */,
 				0C91DA1F2867125700631DF3 /* Alignment.swift in Sources */,
 				0C91DA182863C82A00631DF3 /* GeometryReaderSizeSafeArea.swift in Sources */,
+				0CD083D82AA745D20040484A /* Extension.swift in Sources */,
 				0C74994628BA313400D38458 /* SyncMultipleScrollView3.swift in Sources */,
 				0C981A6E28F3D1D900B0BD5E /* PrintDebug.swift in Sources */,
 				0C91DA252867DB4700631DF3 /* AlignmentTextBaseLine.swift in Sources */,
@@ -475,6 +498,7 @@
 				0C03A715285DEB6500D029F9 /* CustomShapeRect.swift in Sources */,
 				0C8CBF61286167B6001A0042 /* CustomAnimationWithBindingProperty1.swift in Sources */,
 				0C91DA1A2863D2C700631DF3 /* GeometryReaderFrame.swift in Sources */,
+				0CD083DF2AA748A60040484A /* NoteBookList.swift in Sources */,
 				0CB2042A28D28AA3007210CD /* Fadeinout.swift in Sources */,
 				0C74ED152AA3471600957167 /* scroll4.swift in Sources */,
 				0C03A723285F641900D029F9 /* CustomMagnification.swift in Sources */,
