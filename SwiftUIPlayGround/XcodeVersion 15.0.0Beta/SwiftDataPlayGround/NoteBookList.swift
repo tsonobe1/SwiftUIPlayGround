@@ -11,6 +11,7 @@ import SwiftData
 struct NoteBookList: View {
     @Environment(\.modelContext) private var context
     @Query private var noteBooks: [NoteBook]
+    @State private var isAddNoteBookPresented: Bool = false
     
     var body: some View {
         VStack {
@@ -34,17 +35,38 @@ struct NoteBookList: View {
                 add("TEST")
             }
         }
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button("Add NoteBook"){
+                    isAddNoteBookPresented = true
+                }
+            }
+        }
+        .sheet(isPresented: $isAddNoteBookPresented) {
+            NavigationStack{
+                AddNoteBook()
+            }
+        }
     }
     private func add(_ title: String) {
         let data = NoteBook(id: UUID(), title: title, page: 100)
         context.insert(data)
+        do {
+            try context.save()
+        }catch{
+            print(error.localizedDescription)
+        }
     }
     private func delete(_ noteBook: NoteBook) {
         context.delete(noteBook)
     }
     private func update(_ noteBook: NoteBook) {
         noteBook.title = "New NoteBook"
-        try? context.save()
+        do {
+            try context.save()
+        }catch{
+            print(error.localizedDescription)
+        }
     }
     
 }
@@ -53,4 +75,42 @@ struct NoteBookList: View {
 #Preview {
     NoteBookList()
         .modelContainer(for: NoteBook.self)
+}
+
+
+struct AddNoteBook: View {
+    @Environment(\.dismiss) private var dismiss
+        @Environment(\.modelContext) private var context
+    
+    @State private var title: String = ""
+    @State private var page: Int = 10
+    var body: some View {
+        Form{
+            TextField("Title", text: $title)
+            TextField("Year", value: $page, format: .number)
+        }
+        .navigationTitle("Add Movie")
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button("Close") {
+                    dismiss()
+                }
+            }
+            ToolbarItem(placement: .topBarTrailing) {
+                Button("Save") {
+                                        
+                    let noteBook = NoteBook(id: UUID(), title: title, page: page)
+                    context.insert(noteBook)
+                    
+                    do {
+                        try context.save()
+                    } catch {
+                        print(error.localizedDescription)
+                    }
+                    
+                    dismiss()
+                }
+            }
+        }
+    }
 }
